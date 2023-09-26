@@ -22,7 +22,16 @@
     margin: 10px 0 10px 0;
 }
 
-/* header */
+body{
+    
+    background-color: #ececec;
+}
+
+/*
+--------------------------------------------- 
+header 
+---------------------------------------------  
+*/ 
 
 header{
     background-color: white;
@@ -44,25 +53,31 @@ h1{
     
 }
 
-/* main */
-
-main{
-    background-color: #f6f8f9;
-}
+/*
+--------------------------------------------- 
+main 
+---------------------------------------------  
+*/ 
 
 .container{
-    /* border: 1px solid black; */
-    width: 60%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 50px auto 0;
     background-color: white;
-}
-
-.container-di-container{
-    width: 80%;
-    margin: 0 auto;
+    border-radius: 20px; 
 }
 
 /* Intestazione */
+.intestazione{
+    padding-left: 6vw;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+/* Corpo */
+.corpo{
+    padding: 1vh 6vw 6vw ;
+}
+
 .b-selected{
     height: 30px;
     width: 80px;
@@ -85,13 +100,12 @@ hr{
     border-color: #f6f8f9;
 }
 
-/* Corpo */
-
 ul{
     list-style-position: inside;
     list-style-type: none;
 }
 
+/* Elementi ::before e ::after */
 .svolto::before{
     content: '✓';
     height: 15px;
