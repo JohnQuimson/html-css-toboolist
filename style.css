@@ -58,6 +58,7 @@ main{
     margin: 0 auto;
 }
 
+/* Intestazione */
 .b-selected{
     height: 30px;
     width: 80px;
@@ -79,3 +80,37 @@ main{
 .container hr{
     color: #f6f8f9;
 }
+
+/* Corpo */
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+#svolto::before{
+    content: '✓';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border: 1px solid #42ccb4;
+    border-radius: 50%;
+    margin: 5px 10px 0 10px;
+    color: #42ccb4 ;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+#non-svolto::before{
+    content: '⨉';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border: 1px solid #ff1010;
+    border-radius: 50%;
+    margin: 5px 10px 0 10px;
+    color: #ff1010;
+    line-height: 15px;
+    font-size: 12px;
+}
+

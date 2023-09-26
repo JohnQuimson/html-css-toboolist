@@ -12,17 +12,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Monomaniac+One&family=Roboto:wght@300;400;900&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
+    <!-- Collegamento file CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Inizio Header -->
     <header>
         <div>
             <img src="img/Logo.png" alt="">   
             <h1>Toboolist</h1> 
         </div>
     </header>
-    
+    <!-- Fine Header -->
+
+    <!-- Inizio Main -->
     <main>  
         <div class="container">
             <div class="container-di-container">
@@ -30,9 +34,38 @@
                     <button type="button" class="b-selected space">Add Task</button>
                     <button type="button" class="b-non-selected space">Add Section</button>
                 </section>
+                <hr class="space">
+                <section class="corpo">
+                    <div class="space">
+                        <h2>🔻 New Task</h2>  
+                        <ul >
+                            <li id="svolto">Quarterly Newsletter</li>
+                        </ul>  
+                    </div>
+                    <div class="space">
+                        <h2>🔻 Today</h2>
+                        <ul>
+                            <li id="svolto">Recruiting blog post</li>
+                            <li id="svolto">Mobile app launch</li>
+                            <li id="non-svolto">Inverview John H. Q.</li>
+                            <li id="svolto">Summit update to mobile storefronts</li>
+                        </ul>
+                    </div>
+                    <div class="space">
+                        <h2>🔻 Upcoming</h2>
+                        <ul>
+                            <li id="non-svolto">Schedule meeting with Alex</li>
+                            <li id="svolto">Homepage refresh</li>
+                            <li id="svolto">Onboard new Sales team members</li>
+                            <li id="svolto">Review editorial calendar</li>
+                        </ul>
+                    </div>
+                </section>
+                
             </div>
-            <hr class="space">
+            
         </div>
     </main>
+    <!-- Fine Main -->
 </body>
 </html>
