@@ -4,6 +4,14 @@
     box-sizing: border-box;
     /* background-color: #f6f8f9; */
     /* border: 0.1px solid black; */
+    font-family: 'Moirai One', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Moirai One', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .space{
@@ -28,10 +36,17 @@ h1{
     display: inline-block;
     padding-left: 10px;
     vertical-align: middle;
+    
+}
+
+/* main */
+
+main{
+    background-color: orange;
 }
 
 .container{
     border: 1px solid black;
     margin: 0 auto;
+    background-color: white;
 }
-
