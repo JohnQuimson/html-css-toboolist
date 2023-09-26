@@ -43,11 +43,39 @@ h1{
 /* main */
 
 main{
-    background-color: orange;
+    background-color: #f6f8f9;
 }
 
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 60%;
     margin: 0 auto;
-    background-color: orange;
+    background-color: white;
+}
+
+.container-di-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.b-selected{
+    height: 30px;
+    width: 80px;
+    background-color: #14aaf5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.b-non-selected{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #ced4d8;
+    border-radius: 5px;
+    color: #ced4d8;
+}
+
+.container hr{
+    color: #f6f8f9;
 }
