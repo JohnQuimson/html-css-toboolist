@@ -18,6 +18,10 @@
     margin-top: 15px;
 }
 
+.piccolo-sp{
+    margin: 10px 0 10px 0;
+}
+
 /* header */
 
 header{
@@ -77,8 +81,8 @@ main{
     color: #ced4d8;
 }
 
-.container hr{
-    color: #f6f8f9;
+hr{
+    border-color: #f6f8f9;
 }
 
 /* Corpo */
@@ -88,7 +92,7 @@ ul{
     list-style-type: none;
 }
 
-#svolto::before{
+.svolto::before{
     content: '✓';
     height: 15px;
     width: 15px;
@@ -99,9 +103,10 @@ ul{
     color: #42ccb4 ;
     line-height: 15px;
     font-size: 12px;
+    text-align: center;
 }
 
-#non-svolto::before{
+.non-svolto::before{
     content: '⨉';
     height: 15px;
     width: 15px;
@@ -112,5 +117,91 @@ ul{
     color: #ff1010;
     line-height: 15px;
     font-size: 12px;
+    text-align: center;
 }
+
+.editorial::after{
+    content: 'Editorial';
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #09a9ed;
+    font-size: 12px;
+    text-align: center;
+}
+
+.goals::after{
+    content: 'Q1 Goals';
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #ab5de6;
+    font-size: 12px;
+    text-align: center;
+}
+
+.recruiting::after{
+    content: 'Recruiting';
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #2cc6ab;
+    font-size: 12px;
+    text-align: center;
+}
+
+.mobile::after{
+    content: 'Mobile';
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #ff9b00;
+    font-size: 12px;
+    text-align: center;
+}
+
+.website::after{
+    content: 'Mobile';
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #ec61a9;
+    font-size: 12px;
+    text-align: center;
+}
+
+.sales::after{
+    content: 'Sales';
+    height: 30px;
+    line-height: 30px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 10px 0 10px;
+    color: white;
+    background-color: #a3d116;
+    font-size: 12px;
+    text-align: center;
+}
+
 
